@@ -1,0 +1,70 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUIZ GAME -QUESTIONS</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+        <div class="container">
+            <div id="quizinner"class="inner-cont">
+            <div id="user-data">
+            <h1 id = "enter-us">Enter Your User Name</h1>
+                <form>
+                    <p id="para"></p>
+                    <input type="text"  id="username" placeholder="user name"/>
+                </form>
+                    <button type="submit" class="btn" id="play"  onclick="play()">PLAY</button>
+                   <!-- <a class="btn"href="/home/israa/Desktop/local-quiz-game/home.html">Home Page</a>-->
+
+                    <a class="btn"href="/home.html">Home Page</a>
+                </div>
+            <div id ="quiz" >
+                <div id="qnum">
+                    <div id="hud-item">
+                        <p id="ques-word">Question</p>
+                        <h1 class="qnum-main" id="questionCounter">
+                          1/10
+                        </h1>
+    
+                    </div>
+                   
+                </div>
+                <h2 id="question">Answer the question</h2>
+                <div class="choice-container">
+                    <p class="choice-text" data-number="1">choice1</p>
+                </div>
+                <div class="choice-container">
+                  
+                    <p class="choice-text" data-number="2">choice2</p>
+                </div>
+                <div class="choice-container">
+                  
+                    <p class="choice-text" data-number="3">choice3</p>
+    
+                </div>
+                <div class="choice-container">
+                   
+                    <p class="choice-text" data-number="4">choice4</p>
+    
+                </div>
+                <button type="submit" class="btn" id="next" disabled="true" onclick="next()">NEXT</button>
+                <button type="submit" class="btn" id="finish" disabled="true" onclick=" finish()">FINISH</button>
+            </div></div>
+    
+            <div id = "scorediv">
+               <div id="resultdiv">Your Score is</div>
+            <!--    <a class="btn resultbuttons" href="/home/israa/Desktop/local-quiz-game/quiz.html">PLAY AGAIN</a>
+            <a class="btn "    href="/home/israa/Desktop/local-quiz-game/highestscore.html">HIGH SCORES</a>
+            -->
+
+            <a class="btn resultbuttons" href="/quiz.html">PLAY AGAIN</a>
+            <a class="btn "    href="/highestscore.html">HIGH SCORES</a>
+            </div>
+        </div>
+        </div>
+     
+    </body>
+    <script src="quiz.js"></script>
+    </html>
