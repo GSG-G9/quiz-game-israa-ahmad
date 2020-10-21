@@ -1,0 +1,150 @@
+.container {
+    display:flex;
+    justify-content: center;
+    width: auto;
+    height: 850px;
+    background-image:linear-gradient(   rgb(218, 192, 229), rgb(170, 213, 221));
+    border: blueviolet;
+    border-radius: 50PX;
+    box-shadow: 5px rgb(222, 202, 238);
+}
+
+.inner-cont {
+  
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 170px;
+    border : solid 5px rgb(186, 156, 189);
+    border-radius:  50PX;
+    width:520px;
+    height: 570px;
+    margin-top: 50px;
+    box-shadow: 15px 15px 10px rgba(135, 8, 167, 0.61);
+}
+#h11{
+     font-size: 60px; 
+     text-align: center;
+     font-family:Arial, Helvetica, sans-serif;
+     margin-left: 0;
+     margin-top:0;
+     margin-bottom: 70px;
+  
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(176, 135, 214, 0.849);
+    padding :30px;
+    margin-left: 0;
+    color: black;
+    font-size:  20px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.btn[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  #play{
+    border:none;
+    border-radius: 5px;
+    background-color: rgba(176, 135, 214, 0.849);
+    padding :30px ;
+    font-size:  20px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+#home-play{
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#disc{
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+#highscore{
+    background-image: url('/images/undraw_winners_ao2o (1).png');
+    padding-top:50px;
+    height: 650px;
+    font-size: 30px;
+}
+#h111{
+    font-size: 60px; 
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-top:0;
+   
+}
+
+#typedscores{
+    margin-top:30px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+   
+}
+
+#scroll{
+    height:320px;
+    overflow-y:auto;
+    margin-bottom: 60px;
+}
+#scoreplay{
+    margin-left: 85px;
+}
+ #user-data{
+
+ }
+
+ #quizinner{
+    background-image:url('/images/undraw_in_thought_gjsf (1).png');
+ }
+ #username{
+     height: 40px;
+     width:250px;
+     border:solid 1px;
+ }
+
+ #para{
+     color: red;
+ }
+
+ p:active{
+    
+     color:blue;
+     text-decoration: underline;
+ }
+ .choice-text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+ } 
+
+ .resultbuttons{
+     margin-top: 300px;
+     margin-left: 80px;
+    
+ }
+
+ #resultdiv{
+     text-align: center;
+     font-size: 60;
+     padding-bottom: 80px;
+ }
+#ques-word{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    
+}
