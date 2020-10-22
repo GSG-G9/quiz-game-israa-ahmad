@@ -7,3 +7,5 @@ The user will answer 10 questions after entering his name then he will get his s
 5. highscore.js file contains the functionality of highscores html page.
 6. styles.css file contains the style of whole project.
 7.images folder contains images used in styling.
+
+https://gsg-g9.github.io/quiz-game-israa-ahmad/
